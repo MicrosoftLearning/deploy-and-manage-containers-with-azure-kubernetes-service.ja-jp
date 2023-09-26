@@ -1,2 +1,5 @@
-# APL-1001-deploy-and-manage-containers-with-azure-kubernetes-service.ja-jp
-Japanese repo for APL-1001-deploy-and-manage-containers-with-azure-kubernetes-service
+# APL-1001: Azure Kubernetes Service を使用してコンテナーをデプロイおよび管理する
+
+このリポジトリには、Microsoft Learn の「Azure Kubernetes Service を使用してコンテナーをデプロイおよび管理する」ラーニング パスの演習を完了するために必要な手順と資産が含まれています。
+## 問題の報告
+演習で問題が発生した場合は、このリポジトリで**イシュー**として報告してください。
