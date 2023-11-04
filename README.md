@@ -1,4 +1,4 @@
-# APL-1001: Azure Kubernetes Service を使用してコンテナーをデプロイおよび管理する
+# Azure Kubernetes Service を使用してコンテナーをデプロイおよび管理する
 
 このリポジトリには、Microsoft Learn の「Azure Kubernetes Service を使用してコンテナーをデプロイおよび管理する」ラーニング パスの演習を完了するために必要な手順と資産が含まれています。
 ## 問題の報告
