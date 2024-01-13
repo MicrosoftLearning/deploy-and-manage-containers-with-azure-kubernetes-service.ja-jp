@@ -9,10 +9,10 @@ Exercise:
 
 このガイド付きプロジェクトは、次の演習で構成されています。
 
-+ 演習 1: Azure Container Registry (ACR) と Azure Kubernetes Service (AKS) をプロビジョニングする。
++ 演習 1:Azure Container Registry (ACR) と Azure Kubernetes Service (AKS) をプロビジョニングする。
 + **演習 2: Linux と Windows のコンテナー イメージをビルドし、Azure Container Registry に格納する。**
 + 演習 3: コンテナー イメージを Azure Kubernetes Service にデプロイする。
-+ 演習 4: デプロイを確認し、すべてのリソースのプロビジョニングを解除する。
++ 演習 4:デプロイを確認し、すべてのリソースのプロビジョニングを解除する。
 
 この演習では、Linux と Windows のコンテナー イメージをビルドし、Azure Container Registry に格納します。
 
@@ -29,7 +29,7 @@ Exercise:
 
 1. Azure portal で、**[Cloud Shell]** アイコンを選択します。
 1. **Bash** または **PowerShell** の選択を求めるメッセージが表示されたら、**[Bash]** を選択します。 
-1. メッセージが表示されたら、 **[Create storage] (ストレージの作成)** を選択し、[Azure Cloud Shell] ペインが表示されるまで待ちます。 
+1. メッセージが表示されたら、 **[ストレージの作成]** を選択し、[Azure Cloud Shell] ペインが表示されるまで待ちます。 
 1. [Cloud Shell] ペインの左上隅にあるドロップダウン メニューに、 **[Bash]** が表示されていることを確認します。
 1. Cloud Shell 内の Bash セッションで、次のコマンドを実行して、Linux イメージの Dockerfile をホストするディレクトリを作成し、現在のディレクトリからそこに切り替えます。
 
@@ -52,7 +52,7 @@ Exercise:
    console.log(`Server running at http://localhost: ${port}`)
    ```
 
-   > **注:** 実行すると、結果の Node.js コードに **Hello World from Node** というメッセージが表示されます。
+   > **注:** 完成した Node.js コードを実行すると、**Hello World from Node** というメッセージが表示されます。
 
 1. Azure Cloud Shell の Bash セッションで、組み込みエディターを使用して package.json という名前のファイルを image-l01 ディレクトリに作成し、それに次の内容をコピーします。
 
@@ -126,6 +126,6 @@ Exercise:
 
    > **注:** ビルドの進行状況を追跡し、正常に完了したことを確認してください。 これにかかる時間は 3 分未満です。
 
-1. Azure Cloud Shell ペインを閉じます。
+1. [Azure Cloud Shell] ペインを閉じます。
 1. Azure portal で、 **[コンテナー レジストリ]** ページに移動し、両方のイメージをプッシュしたコンテナー レジストリを表すエントリを選択します。
 1. [コンテナー レジストリ] ページの垂直のハブ メニューで **[リポジトリ]** を選択し、リポジトリの一覧に **hellofromnode** と **hellofromdotnet** が表示されることを確認します。
