@@ -9,7 +9,7 @@ Exercise:
 
 このガイド付きプロジェクトは、次の演習で構成されています。
 
-+ 演習 1:Azure Container Registry (ACR) と Azure Kubernetes Service (AKS) をプロビジョニングする。
++ 演習 1: Azure Container Registry (ACR) と Azure Kubernetes Service (AKS) をプロビジョニングする。
 + **演習 2: Linux と Windows のコンテナー イメージをビルドし、Azure Container Registry に格納する。**
 + 演習 3: コンテナー イメージを Azure Kubernetes Service にデプロイする。
 + 演習 4:デプロイを確認し、すべてのリソースのプロビジョニングを解除する。
